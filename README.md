@@ -1,4 +1,4 @@
-# Lab #7-Taller Amazon Gateway y Lambda
+# Lab #7 Taller Amazon Gateway y Lambda
 
 
 ## Introducción Del Proyecto
