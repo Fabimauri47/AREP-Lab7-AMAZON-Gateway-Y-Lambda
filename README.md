@@ -3,7 +3,7 @@
 
 ## Introducción Del Proyecto
 
-En este laboratorio 6 se realizó la construcción de un aplicativo web, diseñado en java y haciendo uso del framework Spark, con el fin de poder implementar y hacer uso de los certificados de SSL y así como de los protocolos HTTPS. La arquitectura se basa en dos nodos, que se comunican por medio de certificados (SSL), así como de hacer uso de una calculadora que se encarga de enviar la media y desviación estándar acorde a los valores suministrados anteriormente. Así como un control de nodos que se encargaran de llevar un control sobre las sesiones que se inician de diferentes usuarios y poder encriptar las contraseñas de estos mismos.
+En este laboratorio 7, se creará un servicio web mediante la herramienta de Spark, la cual permite convertir de grados Fahrenheit a grados Celsius, haciendo uso de JSON. Luego hacemos uso de una maquina virtual AWS de EC2, para desplegar el servicio y publicándolo en el mismo. A partir de lo realizado anteriormente procedemos a crear un API Gateway para poder acceder al servicio y luego una aplicación web que use el servicio de Gateway. La integración no se realizo con un servicio Lambda, si no con un API. Además, se creó una aplicación desplegada en S3, la cual permitió que estuviera disponible el servicio web en cualquier máquina, con solo tener acceso a internet. La aplicación web permite al usuario ingresar el valor en Fahrenheit, para que luego el mismo API, le devuelva el valor correspondiente en Celsius.  
 
 
 ### Pre-Requisitos
