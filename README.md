@@ -32,7 +32,7 @@ En este laboratorio 7, se creará un servicio web mediante la herramienta de Spa
 ### Diagrama de Clases de la Arquitectura
 La arquitectura de este proyecto se baso en el siguiente diagrama de modelo de clases:
 
-  ![texto cualquiera por si no carga la imagen]()
+  ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab7-AMAZON-Gateway-Y-Lambda/blob/main/Img/ArquitecturaLab7.png)
 
 La arquitectura de este laboratorio se basa en una clase llamada “ServicioSparkWeb” que es generada y cargada en un servidor con los puntos finales, la primera nos va a retornar un mensaje de “hola a todos” y la otra nos mostrara el valor de Celsius convertido en grados Fahrenheit. La clase de encargada de hacer uso del servicio de temperatura “clase ServicioTemperatura”, el cual tendrá una interface que nos proporcionará los servicios de temperatura. Esta clase es implementada por “SrvicioTemperaturaImpl” con una especifica implementación de servicios de temperatura, lo cual permitirá que el servicio sea más fácil de usar y que se pueda usar otra implantación de estos servicios. 
 
@@ -40,7 +40,7 @@ La arquitectura de este laboratorio se basa en una clase llamada “ServicioSpar
 
 Luego de implementar dicha arquitectura procedemos a realizar el diagrama de despliegue, este consiste en el acceso a un cliente en una aplicación JavaScript que es desplegado en la maquina proporcionado por Amazon llamada S3, la cual nos permitirá hacer el despliegue completo del servicio. Para ello, la aplicación se conectará al router implementado en un API Gateway que tiene acceso a un servicio local proporcionado por la maquina anteriormente creada AWS EC2, lo cual permitirá que el servicio sea contenido en un micro contenedor de Docker, permitiendo mostrar el calculo de la temperatura respectivo.
 
- ![texto cualquiera por si no carga la imagen]()
+ ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/AREP-Lab7-AMAZON-Gateway-Y-Lambda/blob/main/Img/DiagramaDespliegueAmazon.png)
 
 ### Guia de Instalación
 
