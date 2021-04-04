@@ -71,11 +71,23 @@ Luego de implementar dicha arquitectura procedemos a realizar el diagrama de des
 
 		mvn javadoc:javadoc
 
-## Corriendo Pruebas
+## Pruebas de Proyecto
+
+### Corriendo Pruebas
 
 Para correr las pruebas, usamos el siguiente comando en una terminal CMD o en una terminal GIT:
 
          mvn test
+
+### Videos Demostrativos Proyecto.
+
+#### video ec2
+
+[Presione Aqui para revisar el video EC2 con DOCKER](https://web.microsoftstream.com/video/0b412606-fae2-49fb-bc4a-aea4e0280ad5?list=studio)
+
+[Presione Aqui para revisar el video LAMBDA](https://web.microsoftstream.com/video/b4ecb220-bc78-4bd1-a83d-878d2a44acbe?list=studio)
+
+[Presione Aqui para revisar el video API GATEWAY](https://web.microsoftstream.com/video/a7eede1f-1762-4449-a370-8e79103710d3?list=studio)
 
 
 ## Construido con
