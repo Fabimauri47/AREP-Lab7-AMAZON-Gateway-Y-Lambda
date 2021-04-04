@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Lab 7 Amazon Gateway-Lambda" />
+        <module name="AREP-Lab7-AMAZON-Gateway-Y-Lambda" />
       </profile>
     </annotationProcessing>
   </component>
