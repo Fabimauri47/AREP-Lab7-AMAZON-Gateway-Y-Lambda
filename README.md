@@ -29,15 +29,11 @@ En este laboratorio 7, se creará un servicio web mediante la herramienta de Spa
 
 ## Arquitectura 
 
-La arquitectura de este proyecto se baso en el siguiente modelo, proporcionado en la el taller:
+La arquitectura de este proyecto se baso en el siguiente modelo de clases:
 
-  ![texto cualquiera por si no carga la imagen](https://github.com/Fabimauri47/-AREP-Lab6-AP-DISTRIBUIDA-SEGURA/blob/main/Img/arquitectura%20Lab.png)
+  ![texto cualquiera por si no carga la imagen]()
 
-Para ello es necesario que dicha arquitectura cumpla algunos requerimientos como lo son el acceso al browser de la aplicación, permitiendo la autenticación, autorización e integridad de los usuarios. Además de tener al menos dos computadores comunicándose entre ellos y un acceso de servicios remotos que deben garantizar, autenticación y autorización entre todos los servicios.
-
-La arquitectura de este laboratorio se basa en realización de un aplicativo web, haciendo uso de certificados web, en el cual permitirá acceder de manera local y remota sobre el control de los servicios que se están manejando en el aplicativo y así como consumirlos. También permitir la función de poder guardas los servicios que no se quieren que sean expuestos, como los de visualizar en el diagrama de arquitectura, haciendo uso de "KeyStore" y "TrustStore" en el aplicativo web manejado.
-
-Los certificados se encontrarán almacenados en el directorio del repositorio y los dos TrustStore de los servicios que se ofrecen, para hacer uso de estos en los aplicativos. Para poder agregar un nuevo servicio, se deben crear "KeyStore" y "TrutStore" nuevos para cada servicio que se va a manejar y agregar dichos certificados a cada uno de los servicios que se van a usar. Por último, como segundo nivel de seguridad se debe contar con un servicio de LOGIN, el cual establecerá el bloqueo del servicios, cuando la sesiones se encuentren inactivas, además de cifrar las contraseñas de los usuarios haciendo uso de la Funciones HASH.
+La arquitectura de este laboratorio se basa en una clase llamada “ServicioSparkWeb” que es generada y cargada en un servidor con los puntos finales, la primera nos va a retornar un mensaje de “hola a todos” y la otra nos mostrara el valor de Celsius convertido en grados Fahrenheit. La clase de encargada de hacer uso del servicio de temperatura “clase ServicioTemperatura”, el cual tendrá una interface que nos proporcionará los servicios de temperatura. Esta clase es implementada por “SrvicioTemperaturaImpl” con una especifica implementación de servicios de temperatura, lo cual permitirá que el servicio sea más fácil de usar y que se pueda usar otra implantación de estos servicios. 
 
 
 ### Guia de Instalación
