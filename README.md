@@ -18,11 +18,6 @@ En este laboratorio 7, se creará un servicio web mediante la herramienta de Spa
     * [Docker Install](https://docs.docker.com/engine/install/) - Despligue de proyecto.
     
 
-### AWS Virtual Machine: Video de despliegue
-
->[![AWS Virtual Machine](amazon/amzn2-ami-hvm-2.0.20210318.0-x86_64-gp2)
-
-
 ### Integracion Continua con Circle CI
 >[![CircleCI](https://circleci.com/gh/The-Developers-Eci/2020-2-PROYCVDS-THE_DEVELOPERS_ECI.svg?style=svg)](https://app.circleci.com/pipelines/github/Fabimauri47/-AREP-Lab3-CLIENTES-Y-SERVICIOS)
 >
@@ -79,17 +74,17 @@ Para correr las pruebas, usamos el siguiente comando en una terminal CMD o en un
 
          mvn test
 
-### Videos Demostrativos Proyecto.
+## Videos Demostrativos Proyecto.
 
-#### AWS EC2
+### AWS EC2
 
 [video EC2 con DOCKER](https://web.microsoftstream.com/video/0b412606-fae2-49fb-bc4a-aea4e0280ad5?list=studio)
 
-#### API GATEWAY
+### API GATEWAY
 
 [API GATEWAY](https://web.microsoftstream.com/video/a7eede1f-1762-4449-a370-8e79103710d3?list=studio)
 
-#### Amazon S3
+### Amazon S3
 
 [Amazon S3](https://web.microsoftstream.com/video/b4ecb220-bc78-4bd1-a83d-878d2a44acbe?list=studio)
 
